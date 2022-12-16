@@ -89,12 +89,3 @@
 //     cout<<final(k);
 // }
 
-#include <bits/stdc++.h>
-using namespace std;
-
-int main(){
-    string s = "cev";
-    vector<int>v;
-    cout<<s;
-    return 0;
-}
