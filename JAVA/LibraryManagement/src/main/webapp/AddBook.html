@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<style>
+body {
+background-color:LightGray;
+}
+.item{
+  border: 5px outset grey;
+  background-color: Tomato;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  width : 50%;
+  margin:20% 25% 20% 25%;
+  justify-content: center;
+  
+  
+  
+}
+button {
+  font-size: 13px;
+  color:green;
+  background-color: white;
+  border-radius: 5px;
+}
+button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+</style>
+<title>Insert title here</title>
+</head>
+<body>
+<div class = "item">
+<form action="AddBook" method="post" >
+	 <h3>Enter Name of Book you want to Add</h3>
+     <input type="text" placeholder=""  name="name" >  
+     <br>
+     <h3>Enter Price of Book</h3>
+     <input type="text" placeholder=""  name="price" >  
+     <br>
+     <h3>Enter Genre of Book</h3>
+     <input type="text" placeholder=""  name="genre" >  
+     <br>
+     <h3>Enter Quantity of Books</h3>
+     <input type="text" placeholder=""  name="quantity" >  
+     <br>
+     <button type="submit" >Add</button>      
+      
+</form>
+</div>
+</body>
+</html>
